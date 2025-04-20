@@ -40,10 +40,10 @@ Curso de Sistemas de Informação
 
 ## Créditos
 
-- **Coordenação do Núcleo ANTARCTICA:** Prof. Dr. *[Nome do Coordenador]*  
-- **Desenvolvimento Web:** *Seu Nome Aqui*  
-- **Design e Frontend:** *Seu Nome Aqui*  
-- **Colaboração:** *[Outros colaboradores, se houver]*
+- **Coordenação do Núcleo ANTARCTICA:** Prof. Dr. *Luís Guilherme Rezende de Assis*  
+- **Desenvolvimento Web:** *Alex de Sousa Silva*  
+- **Design e Frontend:** *Alex de Sousa Silva*  
+- **Colaboração:** *Ana Paula Alves de Sousa*
 
 ---
 
