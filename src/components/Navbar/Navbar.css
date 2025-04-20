@@ -1,0 +1,66 @@
+/* 
+
+As propriedades que SEMPRE vão apenas no PAI são 
+display: flex;
+flex-direction	> Define a direção: row (linha) ou column
+justify-content	> Alinha no eixo principal (horizontal em row)
+align-items	> Alinha no eixo cruzado (vertical em row)
+gap > Espaço entre os filhos
+
+Já nos filhods, as propriedades que SEMPRE vão são:
+flex-grow	> Cresce e ocupa espaço extra
+flex-shrink	> Encolhe se o espaço for pequeno
+flex-basis	> Largura inicial (antes de crescer ou encolher)
+align-self	> Alinha só esse filho no eixo cruzado
+order	> Muda a ordem do filho na tela
+*/
+
+nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    margin: 30px 30px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+.navbar {
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.itens-menu a {
+    text-decoration: none;
+    color: #545454;
+    font-size: 20px;
+    /*font-weight: 500;*/
+
+}
+
+li{
+    display: flex;
+}
+
+.logo {
+    display: initial;
+    background-color: brown;
+}
+
+.content {
+    padding-top: 80px; /* Ajuste conforme a altura real da sua navbar */
+    flex: 1;
+  }
