@@ -24,7 +24,7 @@ nav{
 }
 
 nav ul {
-    margin: 30px 30px;
+    margin: 35px 35px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -57,10 +57,17 @@ li{
 
 .logo {
     display: initial;
-    background-color: brown;
 }
 
+.logo img {
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 20px;
+}
+
+
 .content {
-    padding-top: 80px; /* Ajuste conforme a altura real da sua navbar */
+    padding-top: 150px; /* Ajuste conforme a altura real da sua navbar */
     flex: 1;
   }
+

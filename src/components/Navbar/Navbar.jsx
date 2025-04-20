@@ -4,7 +4,7 @@ function Navbar() {
     return (
       <nav className="navbar mt-0 pt-0">
         <div className="logo">
-            <li><a href="#home">LOGO</a></li>
+            <li><a href="#home"><img src="src/assets/imagem/logo.png" alt="logo ANTARCTICA" /></a></li>
         </div>
         <ul className="itens-menu">
           <li><a href="#about">ANTARCTICA</a></li>
