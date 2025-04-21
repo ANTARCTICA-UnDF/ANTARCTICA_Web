@@ -1,6 +1,8 @@
 .footer{
-    background-color: rgb(0, 255, 64);
-    border-color: rgb(0, 0, 0);
+    border-top: 2px solid; /* cor suave, pode ajustar */
+    padding-top: 20px;
+    margin-top: 40px;
+    border-color: #71AEFF;
     size: 40px;
     height: 200px;
 }
