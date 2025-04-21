@@ -60,14 +60,36 @@ li{
 }
 
 .logo img {
-    width: 150px; /* Ajuste conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 150px; 
+    height: auto; 
     margin-top: 20px;
 }
 
-
 .content {
-    padding-top: 150px; /* Ajuste conforme a altura real da sua navbar */
+    padding-top: 150px; 
     flex: 1;
   }
 
+  .itens-menu a {
+    position: relative;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .itens-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #71AEFF;
+    transition: width 0.4s ease;
+  }
+  
+  .itens-menu a:hover::after {
+    width: 100%;
+  }
+  
