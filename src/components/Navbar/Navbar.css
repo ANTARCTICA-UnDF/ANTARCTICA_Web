@@ -93,3 +93,10 @@ li{
     width: 100%;
   }
   
+  .busca-geral svg {
+    margin-bottom: 2px;
+    margin-right: 5px;  /* espaço entre o ícone e o texto */
+    vertical-align: middle; /* alinha verticalmente ao texto */
+    transform: translateX(2px); /* sobe ou desce o ícone */
+  }
+  
